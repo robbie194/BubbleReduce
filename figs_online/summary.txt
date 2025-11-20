@@ -1,0 +1,8 @@
+Online micro-adjustment vs Static
+Steps: 200, Moves: 5, Rollbacks: 3
+Makespan mean: static 350.430 ms | online 315.393 ms | speedup ×1.11
+Makespan median: static 348.233 ms | online 305.168 ms
+Makespan p95: static 565.676 ms | online 520.063 ms | speedup ×1.09
+Bubble mean: static 46.78% | online 41.05%
+Bubble p95: static 49.62% | online 46.15%
+Improved steps fraction: 91.5%
