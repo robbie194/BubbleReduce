@@ -26,7 +26,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 # Reuse building blocks without triggering a script run
-from pipeline_partition_demo import (
+from pipeline_partition import (
     TinyMLP,
     profile_model_fwd_bwd,
     build_blocks_by_n,

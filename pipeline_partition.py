@@ -734,7 +734,7 @@ def main():
     def generate_and_save_figures():
         import os
         import csv
-        figs_dir = os.path.join(os.getcwd(), "figs")
+        figs_dir = os.path.join(os.getcwd(), "figs_partition")
         os.makedirs(figs_dir, exist_ok=True)
 
         strategies = {
@@ -831,9 +831,9 @@ def main():
         print(f"  - CSV: {csv_path}")
         for sched in ("gpipe", "1f1b"):
             for bw in (300.0, 50.0):
-                print(f"  - figs/makespan_{sched}_{int(bw)}.png")
-                print(f"  - figs/bubble_{sched}_{int(bw)}.png")
-                print(f"  - figs/speedup_{sched}_{int(bw)}.png")
+                print(f"  - figs_partition/makespan_{sched}_{int(bw)}.png")
+                print(f"  - figs_partition/bubble_{sched}_{int(bw)}.png")
+                print(f"  - figs_partition/speedup_{sched}_{int(bw)}.png")
 
     generate_and_save_figures()
 

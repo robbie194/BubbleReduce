@@ -1,4 +1,4 @@
-BubbleReduce: Communication-Aware Pipeline Partitioning and Scheduling Demos
+DynaPipe: Dynamic Pipeline Partitioning with Online Adjustment
 
 Overview
 - This repo demonstrates practical techniques to reduce pipeline bubbles when training large models across multiple pipeline stages.
